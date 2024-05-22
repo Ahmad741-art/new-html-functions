@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Functions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #alert {
+            display: none;
+            background-color: yellow;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        #show-alert:checked + #alert {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <main>
+        <label>
+            <input type="checkbox" id="show-alert">
+            Show Alert
+        </label>
+        <div id="alert">
+            <p>This is an alert message!</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My First HTML Based Website</p>
+    </footer>
+</body>
+</html>

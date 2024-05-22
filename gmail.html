@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Functions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #new-content {
+            display: none;
+        }
+        #show-content:checked + #new-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <main>
+        <label>
+            <input type="checkbox" id="show-content">
+            Show New Content
+        </label>
+        <div id="new-content">
+            <p>This is the new content!</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My First HTML Based Website</p>
+    </footer>
+</body>
+</html>
